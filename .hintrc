@@ -1,0 +1,24 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "meta-viewport": "off",
+    "axe/language": [
+      "default",
+      {
+        "html-has-lang": "off"
+      }
+    ]
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_chr <= 131",
+    "not chrome <= 131",
+    "not edge <= 131",
+    "not firefox <= 133",
+    "not safari <= 18.2",
+    "not samsung <= 27"
+  ]
+}
