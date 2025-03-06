@@ -2,7 +2,7 @@
 
 //database_connection.php
 
-$connect = new PDO("mysql:host=localhost:3310;dbname=auction1", "root", "");
+$connect = new PDO("mysql:host=localhost;dbname=auction1", "root", "");
 
 date_default_timezone_set('Asia/Kathmandu');
 
